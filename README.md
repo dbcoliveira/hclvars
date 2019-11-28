@@ -19,7 +19,7 @@ The result hclvars.HCLvars handles with many different types of default and type
 https://raw.githubusercontent.com/GoogleCloudPlatform/terraform-google-nat-gateway/master/variables.tf
 https://raw.githubusercontent.com/hashicorp/terraform-azurerm-consul/master/vars.tf
 
-Examples takaen from https://registry.terraform.io/browse/modules
+Examples taken from https://registry.terraform.io/browse/modules
 
 ## How to use
 
