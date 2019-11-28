@@ -2,7 +2,7 @@
 Parses HCL variables files for further processing.
 
 
-How to use
+## How to use
 
 ```
 package main
