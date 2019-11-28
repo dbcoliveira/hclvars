@@ -2,7 +2,7 @@
 Parses HCL variables files for further processing.
 
 ## Details
-HCLVars traverses terraform variable files and store them in a simple array structure (hclvars.HCLVars). This is useful to parse dynamic random terraform variable.tf files part of a module.  
+HCLVars traverses terraform variable files and store them in a simple array structure (hclvars.HCLVars). This is useful to parse diversified terraform "variables.tf" files part of a module.  
 
 The variable file should be in the format:
 ```
