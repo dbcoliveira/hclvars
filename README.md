@@ -4,7 +4,7 @@ Parses HCL variables files for further processing.
 ## Details
 HCLVars traverses terraform variable files and store them in a simple array structure (hclvars.HCLVars). This is useful to parse diversified terraform "variables.tf" files part of a module.  
 
-The variable file should be in the format:
+The variable file should be in the format (other labels are ignored):
 ```
 variable "v" {
   description = <description>
