@@ -56,13 +56,11 @@ func (h HCLVars) DecodeType(cv cty.Value) []string {
 			fmt.Println(err)
 		}
 		res = append(res, string(jsonStr))
-
 	}
 	return res
 }
 
 func (h *HCLVars) ParseHCL(hclfile *hcl.File) {
-
 	// expected tfvars structure.
 	var config struct {
 		Variables []struct {
