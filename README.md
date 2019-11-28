@@ -2,7 +2,8 @@
 Parses HCL variables files for further processing.
 
 ## Details
-HCLVars traverses a terraform variable files and store them in a simple array structure (hclvars.HCLVars).
+HCLVars traverses a terraform variable files and store them in a simple array structure (hclvars.HCLVars). This is useful to parse dynamic random terraform variable.tf files part of module.  
+
 The variable file should be in the format:
 ```
 variable "v" {
@@ -12,6 +13,13 @@ variable "v" {
 }
 ```
 The result hclvars.HCLvars handles with many different types of default and type attributes including maps and arrays.
+
+## Source examples
+
+https://raw.githubusercontent.com/GoogleCloudPlatform/terraform-google-nat-gateway/master/variables.tf
+https://raw.githubusercontent.com/hashicorp/terraform-azurerm-consul/master/vars.tf
+
+Taken from registry.terraform.com
 
 ## How to use
 
