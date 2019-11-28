@@ -7,7 +7,7 @@ HCLVars traverses terraform variable files and store them in a simple array stru
 The variable file should be in the format:
 ```
 variable "v" {
-  description = "description"
+  description = <description>
   type        = <type>
   default     = <default value>
 }
